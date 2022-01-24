@@ -58,4 +58,4 @@ app.use('/user', UserRouter)
 app.use('/page', PageRouter)
 app.use('/', IndexRouter)
 
-app.listen(4000);
+app.listen( process.env.PORT || 4000 );
