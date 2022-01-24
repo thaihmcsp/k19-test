@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-blog {
+  position: relative;
+}
+
+.img-blog div {
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  bottom: 0;
+  z-index: 1;
+  padding: 32px 16px;
+}
+
+.tourDate {
+  background: black;
+  color: white;
+  text-align: center;
+}
+.tourDate p {
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.tourDate-time {
+  background: white;
+  color: #757575;
+  max-width: 800px;
+  margin: auto;
+}
+
+.tourDate-month {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+.out {
+  margin-left: 16px;
+  padding: 0 8px;
+  color: #fff;
+  background-color: #f44336;
+}
+
+.November {
+  display: flex;
+  justify-content: space-between;
+}
+.November p {
+  padding: 0 8px;
+  margin-right: 16px;
+  margin-bottom: 0;
+  background: black;
+  border-radius: 50%;
+  opacity: 1;
+  color: white;
+  font-style: normal;
+}
+.contact-head {
+  text-align: center;
+}
+
+.contact-head p {
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.contact-content {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.contact-text,
+.contact-inputGroup {
+  width: 50%;
+}
+
+.contact-text i {
+  width: 30px;
+}
+.contact-text p {
+  margin: 0;
+}
+.contact-info {
+  display: flex;
+  margin: 0 -16px 8px -16px;
+  padding: 0 8px;
+}
+
+.contact-inputGroup input {
+  padding: 8px;
+  width: 100%;
+}
+
+.contact-info div {
+  width: 50%;
+  padding: 0 8px;
+}
+
+.contact-inputGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contact-inputGroup button {
+  width: fit-content;
+  margin: 16px 0;
+  padding: 8px 16px;
+  color: white;
+  background: black;
+  border: none;
+}

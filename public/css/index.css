@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.view {
+  display: flex;
+}
+.view-left {
+  height: 100vh;
+  width: 300px;
+  position: fixed;
+}
+
+.head {
+  padding: 0 16px;
+}
+.head img {
+  width: 45%;
+  border-radius: 4px;
+}
+.head h3 {
+  margin: 10px 0;
+}
+.head p {
+  margin: 15px 0;
+  color: #757575;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  padding: 8px 16px;
+  line-height: 22px;
+}
+.menu li:hover {
+  cursor: pointer;
+  background: #ccc;
+}
+.menu li i {
+  font-size: 15px;
+  width: 15px;
+  margin-right: 16px;
+}
+.listIcon {
+  margin: 16px 0;
+  padding: 0 16px;
+}
+.listIcon i {
+  font-size: 18px;
+  cursor: pointer;
+}
+.listIcon i:hover {
+  opacity: 0.6;
+}
+.view-right {
+  background: #f1f1f1;
+  width: calc(100% - 300px);
+  margin-left: 300px;
+}
+
+.heading {
+  width: 100%;
+  padding: 0 16px;
+}
+.heading h1 {
+  margin: 10px 0;
+  font-size: 36px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+  padding: 16px 0;
+  border-bottom: 6px solid #ccc;
+}
+.filter div {
+  padding: 8px 16px;
+  cursor: pointer;
+  background: white;
+  margin-right: 5px;
+}
+.filter div i {
+  font-size: 15px;
+  width: 15px;
+  margin-right: 16px;
+}
+.filter div:hover {
+  background: #ccc;
+}
+.filter p {
+  margin-right: 16px;
+}
+.filter .all {
+  background: black;
+  color: white;
+}
+.list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+.listItem {
+  width: 33.333%;
+  padding: 0 8px;
+  margin-bottom: 16px;
+}
+.card {
+  width: 100%;
+  border: none;
+  border-radius: unset;
+}
+.card .card-img-top {
+  border-radius: unset;
+}
+.card .card-img-top:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.pagination {
+  padding: 32px 0;
+  justify-content: center;
+}
+.pagination .page-item .page-link {
+  border: none;
+  background: none;
+  color: black;
+  padding: 8px 16px;
+  border-radius: unset;
+}
+.pagination .page-item .page-link:hover {
+  background: black;
+  color: white;
+}
+.about {
+  width: 100%;
+}
+.about-img {
+  padding: 16px 8px;
+  display: flex;
+}
+.about-img img {
+  width: 50%;
+  padding: 0 8px;
+}
+.about-content {
+  padding: 12px 24px;
+}
+.about-content p {
+  text-align: justify;
+  margin: 15px 0;
+}
+.about-content h2 {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 10px 0;
+}
+.about-content h4 {
+  margin: 10px 0;
+}
+.about-content hr {
+  margin: 20px 0;
+}
+.progress {
+  background: #9e9e9e;
+  height: 38px;
+  border-radius: unset;
+}
+.progress-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #616161;
+  color: white;
+}
+.progress-1 {
+  width: 95%;
+}
+.progress-2 {
+  width: 85%;
+}
+.progress-3 {
+  width: 80%;
+}
+.about-content button {
+  margin: 15px 0;
+  background: #616161;
+  padding: 12px 24px;
+  color: white;
+  border: none;
+}
+.about-content button:hover {
+  background: #ccc;
+  color: black;
+}
+.about-content button i {
+  width: 16px;
+  margin-right: 16px;
+}
+.price {
+  padding: 0 24px;
+}
+.price h4 {
+  margin: 15px 0;
+}

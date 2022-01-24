@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <%- include('../components/header') %>
+
+  <div class="homeContent">
+    đay la trang chu
+    <div class="listUser">
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Role</th>
+        </tr>
+        <% for(var i =0; i < 5; i++) {%>
+        <tr>
+          <td><%= listUser[i].username %></td>
+          <td><%= listUser[i].role %></td>
+        </tr>
+        <% } %>
+      </table>
+    </div>
+    <div class="listBtn">
+      <% for(var i=0; i < listUser.length; i += 5) { %>
+        <button onclick="changePage('<%= i/5 + 1 %>')"><%= i/5 + 1  %> </button>
+      <% } %>
+    </div>
+
+  </div>
+
+  <%- include('../components/footer') %>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/public/ejs/home.js"></script>
+</html>
